@@ -1,0 +1,16 @@
+class superParent{
+public superParent(){
+System.out.println("In Parent constructor");
+}
+}
+public class superThis extends superParent {
+int a;
+public superThis(){
+super();
+this.a=5;
+System.out.println("In Child constructor, a="+a);
+}
+public static void main(String[] args) {
+superThis s = new superThis();
+}
+}
