@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <style type="text/css">
+        h1 {
+            text-align: center;
+        }
+ 
+        #ex {
+            text-align: center;
+            background-image:
+url("https://w7.pngwing.com/pngs/802/825/png-transparent-redbubble-polite-cat-meme-funny-cat-meme-thumbnail.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+    <h1>Example for fixed Background Image</h1>
+ 
+    <div id="ex">
+         
+<p>
+            Paragraphs are the building blocks
+            of papers. Many students define
+            paragraphs in terms of length: a
+            paragraph is a group of at least
+            five sentences,
+        </p>
+ 
+        <br><br>
+ 
+         
+<p>
+            a paragraph is half a page long,
+            etc. In reality, though, the unity
+            and coherence of ideas among
+            sentences is what constitutes a
+            paragraph.
+        </p>
+ 
+        <br><br>
+ 
+         
+<p>
+            A paragraph is defined as “a group
+            of sentences or a single sentence
+            that forms a unit” (Lunsford and
+            Connors 116).
+        </p>
+ 
+ 
+        <br><br>
+         
+<p>
+            Length and appearance do not
+            determine whether a section in
+            a paper is a paragraph.
+        </p>
+ 
+        <br><br>
+ 
+         
+<p>
+            For instance, in some styles of
+            writing, particularly journalistic
+            styles, a paragraph can be just
+            one sentence long. Ultimately, a
+            paragraph is a sentence or group of
+            sentences that support one main idea.
+        </p>
+ 
+        <br><br>
+ 
+         
+<p>
+            In this handout, we will refer to this
+            as the “controlling idea,” because it
+            controls what happens in the rest
+            of the paragraph.
+        </p>
+ 
+    </div>
+</body>
+ 
+</html>
+          

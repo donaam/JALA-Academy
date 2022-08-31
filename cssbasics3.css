@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+background-color: lightblue;
+}
+ 
+h1 {
+text-align: center;
+border-style: solid;
+}
+ 
+p {
+font-family: verdana;
+font-size: 20px;
+border-style: dotted;
+}
+ 
+</style>
+</head>
+<body>
+ 
+<h1>My First Border in the heading</h1>
+<p>Border around the paragraph too!</p>
+ 
+</body>
+</html>
