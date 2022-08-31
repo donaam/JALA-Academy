@@ -1,0 +1,10 @@
+public class Foo {
+        ...
+        public int getInt(String s1) {
+            // get and return an int based on a single string.
+        }
+
+        public int getInt(String s1, int dflt) {
+            // get and return an int based on a string and an integer
+        }
+    }

@@ -1,0 +1,24 @@
+public class T {
+
+
+    private T(){
+
+        System.out.println("Hello");
+    }
+
+    class TT{
+
+        public TT(){
+
+            new T();
+        }
+    }
+
+    public static void main(String[] args){
+
+        T t = new T();
+        T.TT i = t.new TT();
+
+    }
+
+}

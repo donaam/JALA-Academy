@@ -1,0 +1,59 @@
+public abstract class BaseClass {
+
+    public void doStuff() {
+        System.out.println("Called BaseClass Do Stuff");
+    }
+
+    public abstract void doAbstractStuff();
+}
+
+public class ConcreteClassOne extends BaseClass{
+
+    @Override
+    public void doAbstractStuff() {
+        System.out.println("Called ConcreteClassOne Do Stuff");
+    }
+}
+
+public class ConcreteClassTwo extends BaseClass{
+
+    @Override
+    public void doStuff() {
+        System.out.println("Overriding BaseClass Do Stuff");
+    }
+    @Override
+    public void doAbstractStuff() {
+        System.out.println("Called ConcreteClassTwo Do Stuff");
+    }
+}
+
+public class ConcreteClassThree extends BaseClass{
+
+    @Override
+    public void doStuff() {
+        super.doStuff();
+        System.out.println("-Overriding BaseClass Do Stuff");
+    }
+    @Override
+    public void doAbstractStuff() {
+        System.out.println("Called ConcreteClassThree Do Stuff");
+    }
+}
+
+public class Test {
+
+    public static void main(String[] args) {
+        BaseClass a = new ConcreteClassOne();
+        a.doStuff(); //Called BaseClass Do Stuff
+        a.doAbstractStuff(); //Called ConcreteClassOne Do Stuff
+
+        BaseClass b = new ConcreteClassTwo();
+        b.doStuff(); //Overriding BaseClass Do Stuff
+        b.doAbstractStuff(); //Called ConcreteClassTwo Do Stuff
+
+        BaseClass c = new ConcreteClassThree();
+        c.doStuff(); //Called BaseClass Do Stuff
+                        //-Overriding BaseClass Do Stuff
+        c.doAbstractStuff(); //Called ConcreteClassThree Do Stuff
+    }
+}

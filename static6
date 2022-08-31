@@ -1,0 +1,5 @@
+static Test obj;
+public static void main(String[] args) {
+    obj = new Test();
+    obj.myInstanceVariable = ... // access of instance variable
+}

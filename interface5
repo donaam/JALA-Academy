@@ -1,0 +1,19 @@
+interface InterfaceA
+{
+public
+    int fun();
+}
+interface InterfaceB
+{
+public
+    String moreFun();
+}
+  
+class MainClass implements InterfaceA, InterfaceB
+{
+public
+    String getStuff()
+    {
+        return "one";
+    }
+}

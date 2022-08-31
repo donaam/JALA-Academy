@@ -1,0 +1,11 @@
+public static void commit() {
+	Connection conn = tl.get();
+	if (conn != null) {
+		try {
+			conn.commit();
+		} catch (SQLException e) {
+			e.printStackTrace();
+			throw new RuntimeException("Connection");
+		}
+	}
+}

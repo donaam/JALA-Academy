@@ -1,0 +1,10 @@
+public class Book { 
+     private String title; // instance var 
+ 
+     private static void main(String... args) { // static context 
+         title = "My book"; // not allowed, compiler doesnt know what book instance you mean. 
+          
+         Book b1 = new Book(); 
+         b1.title = "My book"; // fine now, it knows you meant title from b1. Also note we are able to access b1's private title fiels, because we are still operating inside the same Book class. 
+    } 
+}

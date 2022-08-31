@@ -1,0 +1,46 @@
+import java.util.HashMap;
+  
+// Main class
+public class GFG {
+  
+    // Main driver method
+    public static void main(String[] args)
+    {
+        // Create an empty hash map by declaring object
+        // of string and integer type
+        HashMap<String, Integer> map = new HashMap<>();
+  
+        // Adding elements to the Map
+        // using standard put() method
+        map.put("vishal", 10);
+        map.put("sachin", 30);
+        map.put("jignesh", 20);
+        map.put("vaibhav", 40);
+        map.put("ramesh", 50);
+        map.put("suresh", 60);
+        map.put("ganesh", 70);
+        map.put("vivek", 80);
+        map.put("dhanish", 90);
+        map.put("manish", 100);
+  
+        // Print size and content of the Map
+        System.out.println("Size of map is:- "
+                           + map.size());
+  
+        // Printing elements in object of Map
+        System.out.println(map);
+  
+        // Checking if a key is present and if
+        // present, print value by passing
+        // random element
+        if (map.containsKey("vishal")) {
+  
+            // Mapping
+            Integer a = map.get("vishal");
+  
+            // Printing value fr the corresponding key
+            System.out.println("value for key"
+                               + " \"vishal\" is:- " + a);
+        }
+    }
+}

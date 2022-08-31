@@ -1,0 +1,7 @@
+class Foo {
+    static void staticMethod(Foo foo) {
+        foo.instanceMethod();
+    }
+
+    void instanceMethod() { }
+}
