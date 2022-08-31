@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>table-layout property</title>
+    <style>
+    table {
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+     
+    th,
+    td {
+        border: 1px solid black;
+    }
+     
+    table#table1 {
+        table-layout: auto;
+        width: 200px;
+    }
+     
+    table#table2 {
+        table-layout: fixed;
+        width: 200px;
+    }
+     
+    div {
+        max-width: 200px;
+        padding: 10px;
+        border: 1px solid black;
+    }
+     
+    h1 {
+        color: green;
+    }
+    </style>
+</head>
+ 
+<body>
+    <center>
+        <h1>my page</h1>
+        <h2>table-layout property</h2>
+        <div>
+            <h3>table-layout:auto;</h3>
+            <table id="table1">
+                <tr>
+                    <th>Author Name</th>
+                    <th>Age</th>
+                    <th>College</th>
+                </tr>
+                <tr>
+                    <td>RaviPratap Singh</td>
+                    <td>24</td>
+                    <td>GFG</td>
+                </tr>
+                <tr>
+                    <td>Rakesh Singh</td>
+                    <td>25</td>
+                    <td>GEEKS</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div>
+            <h3>table-layout:fixed;</h3>
+            <table id="table2">
+                <tr>
+                    <th>Author Name</th>
+                    <th>Age</th>
+                    <th>College</th>
+                </tr>
+                <tr>
+                    <td>RaviPratap Singh</td>
+                    <td>24</td>
+                    <td>GFG</td>
+                </tr>
+                <tr>
+                    <td>Rakesh Singh</td>
+                    <td>25</td>
+                    <td>GEEKS</td>
+                </tr>
+            </table>
+        </div>
+    </center>
+</body>
+</html>

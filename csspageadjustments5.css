@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <style> 
+        h1 { 
+            color: green; 
+        } 
+        body { 
+            text-align: center; 
+        } 
+        #GFG {
+            background: 
+url(https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-6-1.png)
+            center no-repeat, 
+url(https://media.geeksforgeeks.org/wp-content/uploads/backgroundimage-1.png) 
+            center no-repeat;
+              
+            background-size:400px 200px, 400px 400px;
+            padding:25px;
+            height:400px;
+        }
+    </style>
+</head>
+  
+<body> 
+    <div id = "GFG">
+          
+        <h1>GeeksforGeeks</h1>
+          
+        <h2>Set Multiple Backgrounds</h2>
+          
+        <p>
+            Element contains two background images
+        </p>
+    </div>
+</body>
+  
+</html>              
